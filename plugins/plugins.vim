@@ -25,4 +25,5 @@ Plug 'junegunn/limelight.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'ap/vim-css-color'
 Plug 'plasticboy/vim-markdown'
+Plug 'tanvirtin/vgit.nvim'
 call plug#end()
