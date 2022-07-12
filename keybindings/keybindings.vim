@@ -1,7 +1,7 @@
 " Quit 
 nnoremap <C-q> :q<CR>
 " Normal Save
-nnoremap <C-w> :w<CR>
+nnoremap <C-s> :w<CR>
 
 " Split Bindings
 imap <C-h> <C-w>h
@@ -48,4 +48,3 @@ noremap <silent> $ g$
 
 " Select all
 nmap <C-a> gg<S-v>G
-
