@@ -3,7 +3,7 @@ let mapleader = " "
 let g:limelight_conceal_ctermfg = 240
 let g:limelight_conceal_guifg = '#777777'
 
-set wrap
+set nowrap
 set noswapfile incsearch
 set shiftwidth=4 autoindent smartindent tabstop=4 softtabstop=4 expandtab
 set scrolloff=999
@@ -59,4 +59,18 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 syntax on
 
+let g:lightline = {
+	\ 'colorscheme': 'wombat',
+	\ 'active': {
+	\   'left': [ [ 'mode', 'paste' ],
+	\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
+	\ },
+	\ 'component_function': {
+	\   'cocstatus': 'coc#status'
+	\ },
+	\ }
 
+" Add (Neo)Vim's native statusline support.
+" NOTE: Please see `:h coc-status` for integrations with external plugins that
+" provide custom statusline: lightline.vim, vim-airline.
+set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}

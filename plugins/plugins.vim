@@ -10,7 +10,7 @@ Plug 'farmergreg/vim-lastplace'
 "Plug 'sonph/onehalf', {'rtp': 'vim/'}
 "Plug 'dracula/vim', { 'as': 'dracula' } 
 "Plug 'sainnhe/sonokai'
-"Plug 'sickill/vim-monokai'
+Plug 'sickill/vim-monokai'
 "Plug 'bluz71/vim-moonfly-colors'
 Plug 'morhetz/gruvbox'
 "Plug 'catppuccin/nvim', {'as': 'catppuccin'}
@@ -26,4 +26,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'ap/vim-css-color'
 Plug 'plasticboy/vim-markdown'
 Plug 'tanvirtin/vgit.nvim'
+Plug 'itchyny/lightline.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'tribela/vim-transparent'
 call plug#end()
