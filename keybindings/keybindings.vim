@@ -1,4 +1,4 @@
-" Quit 
+" Quit
 nnoremap <C-q> :q<CR>
 " Normal Save
 nnoremap <C-s> :w<CR>
@@ -20,7 +20,7 @@ nnoremap <silent> <C-M-k>    :resize +2<CR>
 nnoremap <silent> <C-M-h>    :vertical resize -2<CR>
 nnoremap <silent> <C-M-l>    :vertical resize +2<CR>
 
-map <F1> nop 
+map <F1> nop
 
 " For NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -31,7 +31,7 @@ nnoremap <esc> :noh<CR>
 " Goyo
 nnoremap <C-g> :Goyo<CR>
 
-nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
+nnoremap <leader>s :so %<CR>
 nnoremap <leader>v :e ~/.config/nvim/init.vim<CR>
 
 nnoremap Q <nop>
@@ -48,3 +48,4 @@ noremap <silent> $ g$
 
 " Select all
 nmap <C-a> gg<S-v>G
+nmap ff :FZF<CR>

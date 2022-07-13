@@ -8,7 +8,7 @@ Plug 'farmergreg/vim-lastplace'
 "Plug 'joshdick/onedark.vim'
 "Plug 'ghifarit53/tokyonight-vim'
 "Plug 'sonph/onehalf', {'rtp': 'vim/'}
-"Plug 'dracula/vim', { 'as': 'dracula' } 
+"Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'sainnhe/sonokai'
 Plug 'sickill/vim-monokai'
 "Plug 'bluz71/vim-moonfly-colors'
@@ -17,8 +17,8 @@ Plug 'morhetz/gruvbox'
 "Plug 'andreasvc/vim-256noir'
 Plug 'preservim/vim-pencil'
 Plug 'dpelle/vim-LanguageTool'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 Plug 'tonadev/vim-airline-256noir'
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/limelight.vim'
@@ -29,4 +29,7 @@ Plug 'tanvirtin/vgit.nvim'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'tribela/vim-transparent'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 call plug#end()
